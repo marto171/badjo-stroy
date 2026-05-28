@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-gold: #E8621A;
+  --color-gold-dark: #C74E0E;
+  --color-gold-light: #F08947;
+  --color-dark: #0C1220;
+  --color-dark-2: #16213E;
+  --color-dark-3: #1E3A5F;
+  --color-charcoal: #2C3E50;
+  --color-slate-custom: #34495E;
+  --font-heading: var(--font-montserrat);
+  --font-body: var(--font-open-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-gold-light), var(--color-gold), var(--color-gold-dark));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+#preloader.loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader-block {
+  width: 16px;
+  height: 16px;
+  background: var(--color-gold);
+  border-radius: 3px;
+  animation: loaderBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite alternate;
+}
+
+.loader-block:nth-child(2) { animation-delay: 0.1s; }
+.loader-block:nth-child(3) { animation-delay: 0.2s; }
+.loader-block:nth-child(4) { animation-delay: 0.3s; }
+
+@keyframes loaderBounce {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(-20px) scale(0.8); }
+}
+
+.particle {
+  position: absolute;
+  background: var(--color-gold);
+  border-radius: 50%;
+  opacity: 0;
+  animation: particleFloat 6s ease infinite;
+}
+
+@keyframes particleFloat {
+  0%   { opacity: 0; transform: translateY(100vh) scale(0); }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.6; }
+  100% { opacity: 0; transform: translateY(-100px) scale(1); }
+}
+
+.scroll-wheel {
+  animation: scrollWheel 1.5s ease infinite;
+}
+
+@keyframes scrollWheel {
+  0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(12px); }
+}
+
+.pulse-ring {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--color-gold);
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes badgePulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.05); }
+}
+
+.reveal-up, .reveal-left, .reveal-right {
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-up    { transform: translateY(40px); }
+.reveal-left  { transform: translateX(-40px); }
+.reveal-right { transform: translateX(40px); }
+
+.reveal-up.revealed,
+.reveal-left.revealed,
+.reveal-right.revealed {
+  opacity: 1;
+  transform: translate(0);
+}
+
+@keyframes fadeScale {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+.btn-shimmer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.2), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.btn-shimmer:hover::before {
+  transform: translateX(100%);
+}
+
+input.field-error,
+textarea.field-error {
+  border-color: #EF4444 !important;
+}
+
+.hamburger-active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger-active span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger-active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
