@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import { faqs } from "@/lib/faqs";
+import { testimonials } from "@/lib/testimonials";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -40,8 +41,9 @@ export const metadata: Metadata = {
   category: "Строителство",
   keywords: [
     "Баджо Строй",
-    "Баджо Строй",
     "Баджо Строй ЕООД",
+    "Badjo Stroy",
+    "Баджо",
     "покриви",
     "ремонт на покрив",
     "изграждане на покрив",
@@ -234,6 +236,29 @@ export default function RootLayout({
           "улуци",
           "тенекеджийски услуги",
         ],
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: (
+            testimonials.reduce((sum, t) => sum + t.rating, 0) / testimonials.length
+          ).toFixed(1),
+          reviewCount: testimonials.length,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        review: testimonials.map((t) => ({
+          "@type": "Review",
+          author: { "@type": "Person", name: t.name },
+          datePublished: t.date,
+          reviewBody: t.quote,
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: t.rating,
+            bestRating: 5,
+            worstRating: 1,
+          },
+          itemReviewed: { "@id": `${SITE_URL}#business` },
+          locationCreated: { "@type": "Place", name: t.location },
+        })),
       },
       {
         "@type": "Organization",

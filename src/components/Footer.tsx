@@ -84,10 +84,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="py-5 text-center">
+        <div className="py-5 flex flex-col md:flex-row gap-3 md:gap-6 items-center justify-between text-center md:text-left">
           <p className="text-white/30 text-[0.85rem]">
             &copy; {new Date().getFullYear()} Баджо Строй ЕООД. Всички права запазени.
           </p>
+          <ul className="flex flex-wrap gap-4 justify-center text-[0.8rem]">
+            <li>
+              <a href="/privacy" className="text-white/40 hover:text-[var(--color-gold)] transition-colors duration-250">
+                Поверителност
+              </a>
+            </li>
+            <li>
+              <a href="/terms" className="text-white/40 hover:text-[var(--color-gold)] transition-colors duration-250">
+                Общи условия
+              </a>
+            </li>
+            <li>
+              <a href="/sitemap.xml" className="text-white/40 hover:text-[var(--color-gold)] transition-colors duration-250">
+                Карта на сайта
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
