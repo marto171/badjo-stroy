@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import RevealOnScroll from "./RevealOnScroll";
 
 const contactCards = [
-  { icon: "fas fa-phone-alt", title: "Телефон", content: "+359 888 123 456", href: "tel:+359888123456" },
+  { icon: "fas fa-phone-alt", title: "Телефон", content: "+359 88 8996917", href: "tel:+359888996917" },
   { icon: "fas fa-envelope", title: "Имейл", content: "info@geostroy.bg", href: "mailto:info@geostroy.bg" },
   { icon: "fas fa-clock", title: "Работно време", content: "Пон - Съб: 08:00 - 19:00" },
   { icon: "fas fa-map-marker-alt", title: "Обслужваме", content: "Цяла България" },
@@ -135,7 +135,7 @@ export default function Contact() {
                         type="tel"
                         id="phone"
                         name="phone"
-                        placeholder="0888 123 456"
+                        placeholder="0888 996 917"
                         className={`px-4 py-3 border-2 rounded-md bg-white text-gray-800 min-h-[48px] transition-all duration-250 focus:outline-none focus:border-[var(--color-gold)] focus:shadow-[0_0_0_4px_rgba(232,98,26,0.15)] ${errors.phone ? "border-red-500" : "border-gray-200"}`}
                         onInput={() => clearError("phone")}
                       />
@@ -236,7 +236,7 @@ export default function Contact() {
                   <p className="text-gray-600 mb-4">Вашето запитване е получено. Ще се свържем с вас до 1 час в работно време.</p>
                   <p className="text-sm text-gray-500">
                     Спешно? Обадете се на{" "}
-                    <a href="tel:+359888123456" className="text-[var(--color-gold)] font-semibold">+359 888 123 456</a>
+                    <a href="tel:+359888996917" className="text-[var(--color-gold)] font-semibold">+359 88 8996917</a>
                   </p>
                 </div>
               )}

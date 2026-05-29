@@ -178,7 +178,7 @@ export default function RootLayout({
           "Гео Строй ЕООД — ремонт и изграждане на покриви в цяла България. Керемиди, дървени конструкции, хидроизолация, улуци. Договор, фиксирана цена, до 15 години писмена гаранция.",
         slogan: "Покриви без компромис — договор, фиксирана цена, до 15 г. гаранция",
         url: SITE_URL,
-        telephone: "+359888123456",
+        telephone: "+359888996917",
         email: "info@geostroy.bg",
         priceRange: "$$",
         image: [
@@ -248,7 +248,7 @@ export default function RootLayout({
         },
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+359888123456",
+          telephone: "+359888996917",
           contactType: "customer service",
           areaServed: "BG",
           availableLanguage: ["Bulgarian"],

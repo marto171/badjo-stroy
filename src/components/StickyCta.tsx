@@ -19,7 +19,7 @@ export default function StickyCta() {
       style={{ animation: "slideUp 0.3s ease" }}
     >
       <a
-        href="tel:+359888123456"
+        href="tel:+359888996917"
         className="inline-flex items-center justify-center gap-2 font-[family-name:var(--font-heading)] font-semibold text-sm bg-emerald-600 text-white py-3 rounded-full"
       >
         <i className="fas fa-phone-alt" />

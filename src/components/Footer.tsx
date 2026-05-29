@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <i className="fas fa-phone-alt text-[var(--color-gold)] w-[18px] text-center" />
-                <a href="tel:+359888123456" className="hover:text-[var(--color-gold)] transition-colors duration-250">+359 888 123 456</a>
+                <a href="tel:+359888996917" className="hover:text-[var(--color-gold)] transition-colors duration-250">+359 88 8996917</a>
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <i className="fas fa-envelope text-[var(--color-gold)] w-[18px] text-center" />

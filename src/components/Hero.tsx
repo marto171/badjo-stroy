@@ -145,11 +145,11 @@ export default function Hero() {
               <i className="fas fa-arrow-right" />
             </a>
             <a
-              href="tel:+359888123456"
+              href="tel:+359888996917"
               className="inline-flex items-center gap-2 font-[family-name:var(--font-heading)] font-semibold border-2 border-white/30 text-white px-8 py-4 rounded-full hover:border-[var(--color-gold)] hover:text-[var(--color-gold)] hover:-translate-y-0.5 transition-all duration-250"
             >
               <i className="fas fa-phone-alt" />
-              <span>+359 888 123 456</span>
+              <span>+359 88 8996917</span>
             </a>
           </div>
         </RevealOnScroll>

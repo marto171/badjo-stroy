@@ -24,11 +24,11 @@ export default function CtaBanner() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="tel:+359888123456"
+              href="tel:+359888996917"
               className="inline-flex items-center gap-2 font-[family-name:var(--font-heading)] font-semibold bg-white text-[var(--color-dark)] px-8 py-4 rounded-full hover:bg-gray-100 hover:-translate-y-0.5 hover:shadow-xl transition-all duration-250"
             >
               <i className="fas fa-phone-alt" />
-              <span>+359 888 123 456</span>
+              <span>+359 88 8996917</span>
             </a>
             <a
               href="#contact"

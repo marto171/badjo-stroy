@@ -31,7 +31,7 @@ export default function TermsPage() {
           </p>
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-xl text-[var(--color-dark)] mt-8 mb-2">Контакти</h2>
           <p>
-            За въпроси: info@geostroy.bg или +359 888 123 456.
+            За въпроси: info@geostroy.bg или +359 88 8996917.
           </p>
         </div>
       </div>
