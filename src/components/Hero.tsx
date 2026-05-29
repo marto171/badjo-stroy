@@ -102,7 +102,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/01-master-roof-view.jpg"
-          alt="Майстор работи върху покрив с керемиди — Гео Строй"
+          alt="Майстор работи върху покрив с керемиди — Баджо Строй"
           fill
           className="object-cover"
           priority

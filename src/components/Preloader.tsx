@@ -29,7 +29,7 @@ export default function Preloader() {
           <div className="loader-block" />
         </div>
         <span className="text-white font-[family-name:var(--font-heading)] font-extrabold text-xl tracking-[4px]">
-          ГЕО СТРОЙ
+          БАДЖО СТРОЙ
         </span>
       </div>
     </div>

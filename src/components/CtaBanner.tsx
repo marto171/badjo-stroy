@@ -6,7 +6,7 @@ export default function CtaBanner() {
     <section className="relative py-24 overflow-hidden" aria-label="Призив за действие">
       <Image
         src="/05-finished-roof-vista.jpg"
-        alt="Готов покрив — Гео Строй"
+        alt="Готов покрив — Баджо Строй"
         fill
         className="object-cover"
         sizes="100vw"

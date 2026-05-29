@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Общи условия",
-  description: "Общи условия за ползване на сайта на Гео Строй.",
+  description: "Общи условия за ползване на сайта на Баджо Строй.",
 };
 
 export default function TermsPage() {
@@ -31,7 +31,7 @@ export default function TermsPage() {
           </p>
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-xl text-[var(--color-dark)] mt-8 mb-2">Контакти</h2>
           <p>
-            За въпроси: info@geostroy.bg или +359 88 8996917.
+            За въпроси: info@badjostroy.bg или +359 88 8996917.
           </p>
         </div>
       </div>

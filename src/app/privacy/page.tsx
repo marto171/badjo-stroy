@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Политика за поверителност",
-  description: "Как Гео Строй обработва и защитава вашите лични данни.",
+  description: "Как Баджо Строй обработва и защитава вашите лични данни.",
 };
 
 export default function PrivacyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
         </h1>
         <div className="prose text-gray-700 space-y-4 leading-relaxed">
           <p>
-            Гео Строй ЕООД („ние“) уважава вашата поверителност. Тази политика обяснява какви данни събираме чрез този сайт и как ги използваме.
+            Баджо Строй ЕООД („ние“) уважава вашата поверителност. Тази политика обяснява какви данни събираме чрез този сайт и как ги използваме.
           </p>
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-xl text-[var(--color-dark)] mt-8 mb-2">Какви данни събираме</h2>
           <p>
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           </p>
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-xl text-[var(--color-dark)] mt-8 mb-2">Вашите права</h2>
           <p>
-            Имате право да поискате достъп, корекция или изтриване на вашите данни. Свържете се с нас на info@geostroy.bg.
+            Имате право да поискате достъп, корекция или изтриване на вашите данни. Свържете се с нас на info@badjostroy.bg.
           </p>
         </div>
       </div>

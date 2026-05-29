@@ -57,12 +57,12 @@ export default function Header() {
         <a href="#hero" className="flex items-center gap-3 z-[1001]" aria-label="Начало">
           <Logo
             size={44}
-            title="Гео Строй"
+            title="Баджо Строй"
             className="rounded-md shadow-[0_4px_12px_rgba(232,98,26,0.3)] hover:rotate-[-6deg] hover:scale-105 transition-transform duration-250"
           />
           <div className="flex flex-col leading-tight">
             <span className="font-[family-name:var(--font-heading)] font-extrabold text-white text-base tracking-[2px]">
-              ГЕО
+              БАДЖО
             </span>
             <span className="font-[family-name:var(--font-heading)] font-semibold text-[var(--color-gold)] text-[0.7rem] tracking-[4px]">
               СТРОЙ

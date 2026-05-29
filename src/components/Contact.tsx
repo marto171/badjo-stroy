@@ -5,7 +5,7 @@ import RevealOnScroll from "./RevealOnScroll";
 
 const contactCards = [
   { icon: "fas fa-phone-alt", title: "Телефон", content: "+359 88 8996917", href: "tel:+359888996917" },
-  { icon: "fas fa-envelope", title: "Имейл", content: "info@geostroy.bg", href: "mailto:info@geostroy.bg" },
+  { icon: "fas fa-envelope", title: "Имейл", content: "info@badjostroy.bg", href: "mailto:info@badjostroy.bg" },
   { icon: "fas fa-clock", title: "Работно време", content: "Пон - Съб: 08:00 - 19:00" },
   { icon: "fas fa-map-marker-alt", title: "Обслужваме", content: "Цяла България" },
 ];

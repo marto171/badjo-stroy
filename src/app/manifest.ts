@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Гео Строй — Ремонт и изграждане на покриви",
-    short_name: "Гео Строй",
+    name: "Баджо Строй — Ремонт и изграждане на покриви",
+    short_name: "Баджо Строй",
     description:
       "Ремонт и изграждане на покриви в цяла България. Договор, фиксирана цена, до 15 г. писмена гаранция.",
     start_url: "/",

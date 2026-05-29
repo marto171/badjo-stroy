@@ -17,8 +17,8 @@ const openSans = Open_Sans({
   display: "swap",
 });
 
-const SITE_URL = "https://geostroy.bg";
-const BUSINESS_NAME = "Гео Строй";
+const SITE_URL = "https://badjostroy.bg";
+const BUSINESS_NAME = "Баджо Строй";
 
 export const viewport: Viewport = {
   themeColor: "#E8621A",
@@ -29,19 +29,19 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Гео Строй | Ремонт и изграждане на покриви с до 15 г. гаранция",
-    template: "%s | Гео Строй",
+    default: "Баджо Строй | Ремонт и изграждане на покриви с до 15 г. гаранция",
+    template: "%s | Баджо Строй",
   },
   description:
-    "Гео Строй — ремонт и изграждане на покриви в София и цяла България. Керемиди Bramac, Tondach, Kebe, хидроизолация, дървени конструкции, улуци. Договор, фиксирана цена, до 15 години писмена гаранция. Безплатен оглед до 48 часа.",
+    "Баджо Строй — ремонт и изграждане на покриви в София и цяла България. Керемиди Bramac, Tondach, Kebe, хидроизолация, дървени конструкции, улуци. Договор, фиксирана цена, до 15 години писмена гаранция. Безплатен оглед до 48 часа.",
   applicationName: BUSINESS_NAME,
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   category: "Строителство",
   keywords: [
-    "Геострой",
-    "Гео Строй",
-    "Геострой ЕООД",
+    "Баджо Строй",
+    "Баджо Строй",
+    "Баджо Строй ЕООД",
     "покриви",
     "ремонт на покрив",
     "изграждане на покрив",
@@ -65,16 +65,16 @@ export const metadata: Metadata = {
     "оглед на покрив",
     "гаранция покрив",
   ],
-  authors: [{ name: "Гео Строй ЕООД", url: SITE_URL }],
-  creator: "Гео Строй ЕООД",
-  publisher: "Гео Строй ЕООД",
+  authors: [{ name: "Баджо Строй ЕООД", url: SITE_URL }],
+  creator: "Баджо Строй ЕООД",
+  publisher: "Баджо Строй ЕООД",
   formatDetection: {
     telephone: true,
     address: true,
     email: true,
   },
   openGraph: {
-    title: "Гео Строй — Ремонт и изграждане на покриви в цяла България",
+    title: "Баджо Строй — Ремонт и изграждане на покриви в цяла България",
     description:
       "18+ години опит, 850+ завършени покрива. Договор, фиксирана цена, до 15 г. писмена гаранция. Безплатен оглед в рамките на 48 часа.",
     url: SITE_URL,
@@ -86,14 +86,14 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/07-new-tile-roof.jpg`,
         width: 1200,
         height: 630,
-        alt: "Завършен керемиден покрив — Гео Строй",
+        alt: "Завършен керемиден покрив — Баджо Строй",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Гео Строй — Ремонт и изграждане на покриви",
+    title: "Баджо Строй — Ремонт и изграждане на покриви",
     description:
       "18+ години опит. Договор, фиксирана цена, до 15 г. гаранция. Безплатен оглед до 48 часа в цяла България.",
     images: [`${SITE_URL}/07-new-tile-roof.jpg`],
@@ -172,14 +172,14 @@ export default function RootLayout({
       {
         "@type": ["LocalBusiness", "RoofingContractor", "GeneralContractor"],
         "@id": `${SITE_URL}#business`,
-        name: "Гео Строй ЕООД",
-        alternateName: ["Геострой", "Geo Stroy", "Geostroy"],
+        name: "Баджо Строй ЕООД",
+        alternateName: ["Баджо Строй", "Badjo Stroy", "Badjostroy"],
         description:
-          "Гео Строй ЕООД — ремонт и изграждане на покриви в цяла България. Керемиди, дървени конструкции, хидроизолация, улуци. Договор, фиксирана цена, до 15 години писмена гаранция.",
+          "Баджо Строй ЕООД — ремонт и изграждане на покриви в цяла България. Керемиди, дървени конструкции, хидроизолация, улуци. Договор, фиксирана цена, до 15 години писмена гаранция.",
         slogan: "Покриви без компромис — договор, фиксирана цена, до 15 г. гаранция",
         url: SITE_URL,
         telephone: "+359888996917",
-        email: "info@geostroy.bg",
+        email: "info@badjostroy.bg",
         priceRange: "$$",
         image: [
           `${SITE_URL}/07-new-tile-roof.jpg`,
@@ -238,7 +238,7 @@ export default function RootLayout({
       {
         "@type": "Organization",
         "@id": `${SITE_URL}#org`,
-        name: "Гео Строй ЕООД",
+        name: "Баджо Строй ЕООД",
         url: SITE_URL,
         logo: {
           "@type": "ImageObject",
@@ -252,7 +252,7 @@ export default function RootLayout({
           contactType: "customer service",
           areaServed: "BG",
           availableLanguage: ["Bulgarian"],
-          email: "info@geostroy.bg",
+          email: "info@badjostroy.bg",
         },
       },
       {

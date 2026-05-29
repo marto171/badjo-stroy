@@ -32,7 +32,7 @@ export default function Logo({ size = 44, className = "", title }: LogoProps) {
         strokeLinejoin="round"
         fill="none"
       />
-      <path d="M20 31 H44 V39 H30 V53 H20 Z" fill="white" />
+      <path d="M20 31 H44 V36 H27 V40 H44 V52 H20 Z" fill="white" />
     </svg>
   );
 }

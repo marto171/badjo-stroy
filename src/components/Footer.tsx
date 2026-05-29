@@ -26,7 +26,7 @@ export default function Footer() {
             <a href="#hero" className="flex items-center gap-3 mb-4">
               <Logo size={44} className="rounded-md" />
               <div className="flex flex-col leading-tight">
-                <span className="font-[family-name:var(--font-heading)] font-extrabold text-white text-base tracking-[2px]">ГЕО</span>
+                <span className="font-[family-name:var(--font-heading)] font-extrabold text-white text-base tracking-[2px]">БАДЖО</span>
                 <span className="font-[family-name:var(--font-heading)] font-semibold text-[var(--color-gold)] text-[0.7rem] tracking-[4px]">СТРОЙ</span>
               </div>
             </a>
@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <i className="fas fa-envelope text-[var(--color-gold)] w-[18px] text-center" />
-                <a href="mailto:info@geostroy.bg" className="hover:text-[var(--color-gold)] transition-colors duration-250">info@geostroy.bg</a>
+                <a href="mailto:info@badjostroy.bg" className="hover:text-[var(--color-gold)] transition-colors duration-250">info@badjostroy.bg</a>
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <i className="fas fa-clock text-[var(--color-gold)] w-[18px] text-center" />
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="py-5 text-center">
           <p className="text-white/30 text-[0.85rem]">
-            &copy; {new Date().getFullYear()} Гео Строй ЕООД. Всички права запазени.
+            &copy; {new Date().getFullYear()} Баджо Строй ЕООД. Всички права запазени.
           </p>
         </div>
       </div>

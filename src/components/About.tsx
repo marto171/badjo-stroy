@@ -30,7 +30,7 @@ export default function About() {
                 <div className="relative w-full h-80 rounded-2xl overflow-hidden">
                   <Image
                     src="/07-new-tile-roof.jpg"
-                    alt="Завършен керемиден покрив — Гео Строй"
+                    alt="Завършен керемиден покрив — Баджо Строй"
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 460px"
@@ -41,7 +41,7 @@ export default function About() {
                 <div className="relative h-[120px] rounded-xl overflow-hidden">
                   <Image
                     src="/02-team-chimney-mountains.jpg"
-                    alt="Екип на Гео Строй по време на работа"
+                    alt="Екип на Баджо Строй по време на работа"
                     fill
                     className="object-cover"
                     sizes="160px"
@@ -65,7 +65,7 @@ export default function About() {
                 <span className="text-[var(--color-gold)]">в надеждни ръце</span>
               </h2>
               <p className="text-gray-500 mb-4 leading-relaxed">
-                От 2007 г. в <strong className="text-[var(--color-dark)] font-semibold">Гео Строй</strong> работим само едно нещо — покриви. Над 850 завършени обекта в цяла България, без рекламации и без съдебни дела с клиенти. Това не е реклама — това е резултатът от качествени материали Bramac, Tondach и Kebe плюс екип, който познава всеки сантиметър от покривната конструкция.
+                От 2007 г. в <strong className="text-[var(--color-dark)] font-semibold">Баджо Строй</strong> работим само едно нещо — покриви. Над 850 завършени обекта в цяла България, без рекламации и без съдебни дела с клиенти. Това не е реклама — това е резултатът от качествени материали Bramac, Tondach и Kebe плюс екип, който познава всеки сантиметър от покривната конструкция.
               </p>
               <p className="text-gray-500 mb-8 leading-relaxed">
                 Подписваме договор с фиксирана цена преди да започнем. Получавате писмена гаранция до 15 години, протокол с използваните материали и фактура. Ако нещо не е както трябва — идваме и оправяме за наша сметка.

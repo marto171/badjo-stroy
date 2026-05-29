@@ -7,5 +7,5 @@
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#g)"/>
   <path d="M12 26 L32 11 L52 26" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <path d="M20 31 H44 V39 H30 V53 H20 Z" fill="white"/>
+  <path d="M20 31 H44 V36 H27 V40 H44 V52 H20 Z" fill="white"/>
 </svg>
