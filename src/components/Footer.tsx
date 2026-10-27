@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 
-import MGBadge from "@/components/MGBadge";
 const navLinks = [
   { href: "#hero", label: "Начало" },
   { href: "#about", label: "За Нас" },
@@ -108,11 +107,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-            {/* Изработка MG Enterprise. Слъгът влиза в адреса и показва от
-            кой готов проект е дошла заявката. */}
-        <div style={{ display: "flex", justifyContent: "center", padding: "18px 16px 24px" }}>
-          <MGBadge slug="badjo-stroy" />
-        </div>
       </footer>
   );
 }
